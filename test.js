@@ -2,7 +2,7 @@ var assert = require('assert');
 var operations = require('./index');
 
 it('correctly calculates the sum of 1 and 3', function() {
-  assert.equal(operations.add(1, 3), 4);
+  assert.equal(operations.add(1, 3), 5);
 });
 
 it('correctly calculates the sum of -1 and -1', function() {
